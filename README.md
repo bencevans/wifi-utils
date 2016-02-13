@@ -20,7 +20,7 @@ With WiFi Disconnected (Exit Code=1)
     $ wifi-ssid
     No Active WiFi Network
 
-### wifi-ssid
+### wifi-password
 
 With WiFi Connected
 
