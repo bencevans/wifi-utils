@@ -1,0 +1,33 @@
+{
+  "name": "wifi-utils",
+  "version": "1.0.0",
+  "description": "Command line utilities for accessing wifi information on Ubuntu distros written in Bash",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/wifi-utils.git"
+  },
+  "bin": {
+    "wifi-password": "./wifi-password",
+    "wifi-ssid": "./wifi-ssid"
+  },
+  "keywords": [
+    "wifi",
+    "ubuntu",
+    "util",
+    "bash",
+    "network",
+    "ssid",
+    "psk",
+    "password",
+    "wireless"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencevans/wifi-utils/issues"
+  },
+  "homepage": "https://github.com/bencevans/wifi-utils#readme"
+}
