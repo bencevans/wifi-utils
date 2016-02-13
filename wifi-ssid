@@ -4,6 +4,10 @@ active_networks=$(iwgetid)
 
 regex=".+ESSID:\"(.+)\".*"
 [[ $active_networks =~ $regex ]]
-name="${BASH_REMATCH[1]}"
 
-echo  $name
+if [[ $active_networks == "" ]]; then
+  echo No Active WiFi Network
+  exit 1
+fi
+
+echo "${BASH_REMATCH[1]}"
