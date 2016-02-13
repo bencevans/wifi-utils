@@ -1,6 +1,6 @@
 # wifi-utils
 
-    WiFi Command Line Utilities for Ubuntu Distros
+WiFi Command Line Utilities for Ubuntu Distros
 
 ## Install
 
