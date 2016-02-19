@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##
+# Get Active WiFi Netork Manager Profile Name
+##
+
+active_network_list=$(nmcli -t -f type,device  con show --active | grep 802-11-wireless)
+regex=".+:(.+)"
+[[ $active_network_list =~ $regex ]]
+active_wifi_device="${BASH_REMATCH[1]}"
+
+if [[ $active_wifi_device == "" ]]; then
+  echo No Active WiFi Network
+  exit 1
+fi
+
+ifconfig $active_wifi_device
