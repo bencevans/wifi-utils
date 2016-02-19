@@ -8,6 +8,11 @@ WiFi Command Line Utilities for Ubuntu Distros
 
 ## Usage
 
+* [wifi-ssid](#wifi-ssid)
+* [wifi-password](#wifi-password)
+* [wifi-ifconfig](#wifi-ifconfig)
+* [wifi-ip](#wifi-ip)
+
 ### wifi-ssid
 
 With WiFi Connected
@@ -49,6 +54,18 @@ With WiFi Connected - Ouputs ifconfig for found WiFi device
 With WiFi Disconnected (Exit Code=1)
 
     $ wifi-ifconfig
+    No Active WiFi Network
+
+### wifi-ip
+
+With WiFi Connected
+
+    $ wifi-ip
+    192.168.1.20
+
+With WiFi Disconnected (Exit Code=1)
+
+    $ wifi-ip
     No Active WiFi Network
 
 ## Licence

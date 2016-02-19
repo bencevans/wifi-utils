@@ -12,7 +12,8 @@
   "bin": {
     "wifi-password": "./wifi-password",
     "wifi-ssid": "./wifi-ssid",
-    "wifi-ifconfig": "./wifi-ifconfig"
+    "wifi-ifconfig": "./wifi-ifconfig",
+    "wifi-ip": "./wifi-ip"
   },
   "keywords": [
     "wifi",
